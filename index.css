@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items:center;
+    /* background-color: gainsboro; */
+    /* margin-top:auto; */
+}
+
+#table-info{
+    border-collapse: collapse;
+    margin: 25px 35px;
+    font-size: 0.9em;
+    min-width:90%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 5px;
+    /* box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88);
+  -webkit-box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88);
+  -moz-box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88); */
+
+}
+
+/* table{
+    width: 100%;
+} */
+
+#table-info thead tr{
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+.tableTitle{
+    margin-left: 40px;
+}
+
+#table-info th,
+#table-info td{
+    padding: 12px 15px;
+}
+
+#table-info tbody tr{
+    border-bottom: 1px solid lightgray;
+}
+
+#table-info tbody tr:nth-last-of-type(even){
+    background-color: 	#F5F5F5;
+}
+
+#table-info tbody tr:last-of-type{
+    border-bottom: 2px solid blue;
+}
+
+.form-data{
+    width: 450px;
+    height: 350px;
+    display: none;
+    flex-direction: column;
+    /* align-items:center; */
+    text-align: left;
+    justify-content: center;
+    background-color: gainsboro;
+    padding: 25px ;
+    margin-top: auto;
+    margin: auto;
+    padding: 5px 15px;
+    position: relative;
+}
+
+.formLabel{
+    text-align: left;
+    justify-content: left;
+}
+
+.form-input{
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+/* .form-section{ */
+    /* position: absolute; */
+    /* box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88);
+  -webkit-box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88);
+  -moz-box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88);
+} */
+
+.submitButton{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    /* padding: 20px 20px; */
+    text-align: center;
+    
+}
+
+.addButton{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 1070px;
+}
+
+.close{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2px;
+    }
+}

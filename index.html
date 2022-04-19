@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern Data Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h1 class="tableTitle">Intern Information</h1>
+        <button class="addButton">Add New Employee</button>
+    <table id="table-info">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+                <td>1</td>
+                <td>Olawande Fatodu</td>
+                <td>100000</td>
+                <td>Engineering</td>
+                <td>Edit Delete</td>
+            </tr> -->
+
+        </tbody>
+    </table>
+    </div>
+
+    <div>
+        
+        <form  class="form-data" id="form">
+            <h2 class="form-title">Add Intern</h2>
+
+            <label class="formLabel">First Name</label>
+            <input type="text" name="firstName" class="form-input" id="firstName">
+
+            <label class="formLabel">Last Name</label>
+            <input type="text" name="lastName" class="form-input" id="lastName">
+
+            <label class="formLabel">Department</label>
+            <input type="text" name="dept" class="form-input" id="dept">
+
+            <label class="formLabel">Salary</label>
+            <input type="number" name="salary" class="form-input" id="salary">
+
+            <input  type="submit" value="submit" class="submitButton">
+
+            <span class="close">X</span>
+            
+            
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
