@@ -4,6 +4,7 @@ body{
     /* flex-direction: column; */
     justify-content: center;
     align-items:center;
+    position: relative;
     /* background-color: gainsboro; */
     /* margin-top:auto; */
 }
@@ -16,6 +17,7 @@ body{
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 5px;
+    position: relative;
     /* box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88);
   -webkit-box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88);
   -moz-box-shadow: 0px 2px 36px -10px rgba(0,0,0,0.88); */
@@ -54,6 +56,14 @@ body{
     border-bottom: 2px solid blue;
 }
 
+.formSection{
+    align-items: center;
+    position: fixed;
+    display: flex;
+    top: 40%;
+    left: 30%;
+}
+
 .form-data{
     width: 450px;
     height: 350px;
@@ -66,8 +76,8 @@ body{
     padding: 25px ;
     margin-top: auto;
     margin: auto;
-    padding: 5px 15px;
-    position: relative;
+    padding: 20px 20px;
+    position: absolute;
 }
 
 .formLabel{

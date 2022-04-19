@@ -52,7 +52,7 @@ function insertNewInfo(formInfo) {
     item4 = newRow.insertCell(3);
     item4.innerHTML = currentItem.salary
     item5 = newRow.insertCell(4);
-    item5.innerHTML = `<a onClick="onEdit(this)">Edit</a>
+    item5.innerHTML = `<a onClick="onEdit(this)">Edit  </a>
                         <a onClick="onDelete(this)"> Delete </a>`;                
 }
 
